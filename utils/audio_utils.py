@@ -48,7 +48,7 @@ class AudioProcessor:
 
     def transcribe_audio(self, audio_path: str) -> Optional[str]:
         """
-        Transcribe audio using Whisper API
+        Transcribe audio using Whisper model, which I suspect defaults to 1.5 B parameters.
         
         Args:
             audio_path: Path to audio file
